@@ -1,0 +1,21 @@
+# Python / local tooling
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# Invoice data: real names, PAN, bank details - never commit
+Invoices/
+Input/
+Output/
+samples/
+Demo-Invoices/
+Sheet/
+docs/*.xlsx
+runs/
+
+# Credentials
+credentials.json
+token.json
+.streamlit/secrets.toml

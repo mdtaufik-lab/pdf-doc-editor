@@ -1,0 +1,6 @@
+[server]
+address = "localhost"  # this Mac only, not the office network
+port = 8501
+
+[browser]
+gatherUsageStats = false
